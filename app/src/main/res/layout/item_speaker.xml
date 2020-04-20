@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/cornerRadius"
+    app:cardElevation="0dp"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="@color/transparent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/shape_paragraph"
+        android:paddingTop="25dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:paddingBottom="10dp"
+        >
+        <ImageView
+            android:id="@+id/imgSpeakerPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/heightCardImageViewHome"
+            android:src="@mipmap/ic_launcher"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/contentDescriptionSpeakerPhoto"
+            />
+
+        <TextView
+            android:id="@+id/lblSpeakerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speaker Name"
+            android:textStyle="bold"
+            android:textSize="@dimen/titleSize"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/lblSpeakerWork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speaker Work"
+            android:textSize="@dimen/mainFontSize"
+            android:textColor="@color/colorAccent"
+            android:gravity="center_horizontal"
+            />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

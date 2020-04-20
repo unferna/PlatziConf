@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="heightLogo">45dp</dimen>
+    <dimen name="toolbarHeight">30dp</dimen>
+
+    <dimen name="cornerRadius">4dp</dimen>
+    <dimen name="heightCardImageViewHome">100dp</dimen>
+    <dimen name="heightCardsImageHome">150dp</dimen>
+
+    <dimen name="titleSize">20sp</dimen>
+    <dimen name="mainFontSize">16sp</dimen>
+    <dimen name="marginHomeSubtitle">10dp</dimen>
+
+    <dimen name="itemScheduleHour">30sp</dimen>
+    <dimen name="itemScheduleHourAMPM">20sp</dimen>
+</resources>
